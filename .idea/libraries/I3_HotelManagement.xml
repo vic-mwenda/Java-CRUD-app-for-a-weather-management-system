@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="I3_HotelManagement">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/I3_HotelManagement.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

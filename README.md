@@ -15,12 +15,13 @@ git fork https://github.com/vic-mwenda/Java-CRUD-app-for-a-weather-management-sy
 #### 1.Build and run the java class 'weatherdata' in UI folder.
 
 ## Features
-  #### 3.CRUD functionalities:  allows all users to create,read,update and delete their content in a managed format <br>
+  #### CRUD functionalities:  allows all users to create,read,update and delete their content in a managed format <br>
 
 ## TODO
 #### 1.Fix delete,edit and update operations bugs
 #### 2. Add User Management Logic.
-#### 2. Add Instrument Management Logic.
+#### 3. Add Instrument Management Logic.
+#### 4. Create Documentation for this project
 
 ## Contributing
 #### Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.Please make sure to update tests as appropriate.

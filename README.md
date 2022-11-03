@@ -4,7 +4,9 @@
 
 ## Installation
  #### 1.Download the zip file from this repository or fork this repository.
-
+````bash
+git fork https://github.com/vic-mwenda/Java-CRUD-app-for-a-weather-management-system.git
+````
  #### 2.Extract the contents of the zip file to the Projects file in your IDE: 
  
  ##### - Linux: home/user/ideaprojects/

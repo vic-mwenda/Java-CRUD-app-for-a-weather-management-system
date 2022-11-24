@@ -9,6 +9,7 @@ public class WeatherData {
     private String RainfallAmount;
     private String AirPressure;
 
+
     public String getTemperature() {
         return Temperature;
     }

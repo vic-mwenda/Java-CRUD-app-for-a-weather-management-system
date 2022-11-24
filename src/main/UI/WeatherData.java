@@ -1,6 +1,3 @@
-
-package main.UI;
-
 import main.DatabaseOperation.WeatherDataDb;
 
 import java.awt.Color;
@@ -19,10 +16,8 @@ public class WeatherData extends javax.swing.JFrame {
     ResultSet result = null;
     private JPanel panel1;
 
-    //int choice = ADD;
     public WeatherData() {
         
-          //  UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
             initComponents();
             this.getContentPane().setBackground(new Color(241,241,242));
             setTitle("All Weather Data");
@@ -71,11 +66,13 @@ public class WeatherData extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
+
         table_weather_data.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 table_weather_dataMouseClicked(evt);
             }
         });
+
         jScrollPane1.setViewportView(table_weather_data);
 
         jPanel3.setBackground(new java.awt.Color(230, 231, 232));

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Weather update system" default="default" basedir=".">
     <description>Builds, tests, and runs the project Weather update system project</description>
-    <import file="nbproject/build-impl.xml"/>
+    <import file="dependecies/build-impl.xml"/>
 </project>

@@ -55,10 +55,8 @@ public class WeatherDataDb {
                     + " where data_id= "
                     + data.getData_id();
 
-            //System.out.println(updateQuery);
             statement = conn.prepareStatement(updateQuery);
 
-            //System.out.println(updateQuery);
             statement.execute();
 
             JOptionPane.showMessageDialog(null, "successfully updated new Weather data");
